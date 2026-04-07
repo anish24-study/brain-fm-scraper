@@ -1,0 +1,9 @@
+/venv
+__pycache__/
+*.pyc
+
+# Scraped data (saved to ~/BrainFM/ by default, not in repo)
+*.json
+!package.json
+!tsconfig.json
+/downloads
