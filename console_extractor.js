@@ -111,7 +111,7 @@
 
             const audioElem = document.querySelector('audio[preload="auto"]');
             if (audioElem && audioElem.src) {
-                data.url = audioElem.src.split('?')[0];
+                data.url = audioElem.src;
             }
 
             return data.song_name ? data : null;
